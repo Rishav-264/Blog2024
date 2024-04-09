@@ -1,0 +1,41 @@
+div{
+    padding: 0;
+    margin: 0;
+}
+.container{
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+}
+
+.slider_image{
+    padding:0;
+    margin:0;
+    width: 30%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    z-index: 1;
+}
+
+.form_container{
+    margin: 0;
+    width: 70%;
+    display: flex;
+    justify-content: center;
+}
+
+.form_container h3{
+    width: fit-content;
+}
+
+.form{
+    width: 50%;
+}

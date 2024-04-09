@@ -1,0 +1,15 @@
+.button{
+    padding: 0.5rem 2rem;
+    background-color: rgb(55, 147, 222);
+    color: white;
+    width: fit-content;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition-duration: 150ms;
+}
+
+.button:hover{
+    background-color: rgb(48, 129, 194);
+}
